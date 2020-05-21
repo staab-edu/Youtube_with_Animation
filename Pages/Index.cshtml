@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div id="head">
+    <h1 class="display-4">Favorite music video</h1>
+</div>
+<br />
+<div id="ytplayer"></div>
+<br />
+<p><span id="current-time">0:00</span> / <span id="duration">0:00</span></p>
+<div id="block">
+    <input type="range" id="progress-bar" value="0">
+</div>
